@@ -8,6 +8,11 @@
 (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
 (add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
 
+;; NOTE: rinari is not included through the package manager,
+;; but as a git submodule of the .emacs.d directory.
+(add-to-list 'load-path "~/.emacs.d/rinari")
+(require 'rinari)
+
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
