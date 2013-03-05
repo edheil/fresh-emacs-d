@@ -5,10 +5,6 @@
 ;; use M-x-describe-font to see actual font being used.
 ;;(set-face-attribute 'default nil :family "Inconsolata" :font "14")
 
-(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
-;; (load-theme 'solarized-dark t)
-(load-theme 'misterioso t)
-
 (require 'server)
 (server-force-delete)
 (server-start)
